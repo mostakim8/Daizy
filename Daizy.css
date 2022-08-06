@@ -28,13 +28,25 @@
 
 /* about section start */
 .about-item{
-    font-size: 40px;
+    font-size: 38px;
 }
 
 .about-content{
-    font-size: 20px;
-    justify-content: center;
-    line-height: 30px; 
+    font-size: 18px;
+    margin-top: -41px;
+    line-height: 33px; 
+    text-align: justify;
+    margin-right: 7px;
+    word-spacing: -2.5px;
+}
+
+.about-content-one{
+    font-size: 18px;
+    line-height: 33px; 
+    text-align: justify;
+    margin-top: 5px;
+    margin-right: 7px;
+    word-spacing: -2px;
 }
 
 .learnBtn{
@@ -43,6 +55,10 @@
     letter-spacing: 2px;
     transition: 0.5s;
     color:white;
+    padding-left: 32px;
+    padding-right: 27px;
+    padding-top: 11px;
+    padding-bottom: 13px;
 }
 .learnBtn:hover{
     background-color: white;
@@ -212,13 +228,15 @@
 }
 
 .Blog .card-subtitle{
-    font-size: 13px;   
+    font-size: 13px;
+    grid-column:5px ;  
 }
 /* Blog section end */
 
 /* contact section start */
 .Contact{
-    background-image: url(/contact-bg.jpg);
+    background-image: url(./contact-bg.jpg);
+   
 }
 
 .Contact .row{
